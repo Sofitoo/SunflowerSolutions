@@ -654,13 +654,17 @@ bg-white/80 hover:bg-white p-3 rounded-full shadow-lg transition">
 
     .hero-cta-btn {
       position: relative;
-      transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+      transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.22s ease, background-color 0.22s ease;
       will-change: transform, box-shadow;
     }
 
     .hero-cta-btn:hover {
-      transform: translateY(-1px);
+      transform: translateY(-2px);
       box-shadow: 0 18px 42px rgba(8, 61, 119, 0.14);
+    }
+
+    .hero-cta-btn:active {
+      transform: translateY(-1px);
     }
 
     .hero-cta-btn:focus-visible {
@@ -838,6 +842,19 @@ bg-white/80 hover:bg-white p-3 rounded-full shadow-lg transition">
 
     .flip-card.flipped .flip-card-back img {
       transform: scale(1);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .slide-caption,
+      .modal-container,
+      .modal-content,
+      .hero-cta-btn.bg-orange-600,
+      .faq-btn.active .faq-icon,
+      .close-btn-modal:hover svg,
+      .close-btn-modal.closing svg {
+        animation: none !important;
+        transition: none !important;
+      }
     }
   </style>
 
@@ -1298,6 +1315,7 @@ bg-white/80 hover:bg-white p-3 rounded-full shadow-lg transition">
   <script src="assets/js/carousel-why.js"></script>
   <script src="assets/js/faq.js"></script>
   <script src="assets/js/contactform.js"></script>
+  <script src="assets/js/scroll-reveal.js"></script>
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
