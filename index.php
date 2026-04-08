@@ -92,68 +92,82 @@
   </section>
 
 
-  <!-- SERVICIOS / CARDS -->
   <section id="servicios" class="py-16 px-4 text-center bg-slate-50">
-    <h2 class="text-3xl font-bold mb-12 text-[#083d77]">¿Qué te ofrecemos?</h2>
+    <h2 class="text-3xl font-bold mb-16 text-[#083d77]">¿Qué te ofrecemos?</h2>
 
     <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto servicios-grid">
 
-      <!-- CARD 1 -->
-      <div class="card portfolio">
+      <div class="card portfolio p-6 bg-white rounded-2xl shadow-sm">
         <div class="info">
-          <h3><i class="fa-solid fa-briefcase text-[#083d77]"></i> Sitios Web Profesionales</h3>
-          <p>Páginas modernas y optimizadas para que tu negocio tenga presencia online 24/7 y genere confianza desde el
-            primer contacto.</p>
-          <p>Ideal para:</p>
-          <ul class="list-disc list-inside text-gray-600 !text-sm space-y-1">
-            <li>Estudios Juridicos.</li>
+          <h3 class="text-xl font-bold mb-6 flex items-center justify-center gap-3">
+            <i class="fa-solid fa-briefcase text-[#083d77]"></i>
+            <span>Sitios Web Profesionales</span>
+          </h3>
+
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            Páginas modernas y optimizadas para que tu negocio tenga presencia online 24/7 y genere confianza desde el
+            primer contacto.
+          </p>
+
+          <p class="font-semibold text-[#083d77] mb-3 text-sm uppercase tracking-wider">Ideal para:</p>
+
+          <ul class="list-disc list-inside text-gray-500 !text-sm space-y-2 text-left inline-block">
+            <li>Estudios Jurídicos.</li>
             <li>Profesionales Independientes.</li>
             <li>Emprendedores.</li>
             <li>Negocios Locales.</li>
           </ul>
-          <!--<a href="https://estudiojuridico.wuaze.com/" target="_blank">estudiojuridico.wuaze.com</a>-->
         </div>
       </div>
 
-      <!-- CARD 2 -->
-      <div class="card ecommerce">
+      <div class="card ecommerce p-6 bg-white rounded-2xl shadow-sm">
         <div class="info">
-          <h3><i class="fa-solid fa-cart-shopping text-[#083d77] icon-cart"></i> Sistemas de Pedidos Online</h3>
-          <p>Desarrollamos sistemas de catálogo y carrito donde tus clientes pueden:</p>
+          <h3 class="text-xl font-bold mb-6 flex items-center justify-center gap-3">
+            <i class="fa-solid fa-cart-shopping text-[#083d77] icon-cart"></i>
+            <span>Sistemas de Pedidos Online</span>
+          </h3>
 
-          <ul class="list-disc list-inside text-gray-600 !text-sm space-y-1 mt-4">
-            <li>Ver productos.</li>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            Desarrollamos sistemas de catálogo y carrito donde tus clientes pueden gestionar todo con facilidad:
+          </p>
+
+          <ul class="list-disc list-inside text-gray-500 !text-sm space-y-2 mb-8 text-left inline-block">
+            <li>Ver productos destacados.</li>
             <li>Agregarlos al carrito.</li>
-            <li>Enviar el pedido.</li>
+            <li>Enviar el pedido por WhatsApp.</li>
             <li>Coordinar directamente con el vendedor.</li>
           </ul>
 
-          <p class="text-gray-500 !text-sm mt-6 border-t pt-4 italic">
-            💡 No intervenimos en los pagos ni en la gestión de cobros. El acuerdo comercial se realiza directamente
-            entre el cliente y el negocio.
-          </p>
+          <div class="text-gray-400 !text-xs mt-6 border-t pt-4 italic leading-tight">
+            <i class="fa-solid fa-circle-info mr-1"></i>
+            No intervenimos en los pagos. El acuerdo comercial se realiza directamente entre el cliente y el negocio.
+          </div>
         </div>
       </div>
 
-      <!-- CARD 3 -->
-      <div class="card blog">
+      <div class="card blog p-6 bg-white rounded-2xl shadow-sm">
         <div class="info">
-          <h3><i class="fa-solid fa-newspaper text-[#083d77]"></i> Blogs y Noticias</h3>
-          <p>Diseñamos plataformas de blog y noticias totalmente autoadministrables para que puedas publicar contenido,
-            posicionarte en Google y generar confianza con tu audiencia.</p>
-          <p>Ideal para:</p>
-          <ul class="list-disc list-inside text-gray-600 !text-sm space-y-1">
+          <h3 class="text-xl font-bold mb-6 flex items-center justify-center gap-3">
+            <i class="fa-solid fa-newspaper text-[#083d77]"></i>
+            <span>Blogs y Noticias</span>
+          </h3>
+
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            Diseñamos plataformas totalmente autoadministrables para publicar contenido, posicionarte en Google y
+            fidelizar audiencia.
+          </p>
+
+          <p class="font-semibold text-[#083d77] mb-3 text-sm uppercase tracking-wider">Ideal para:</p>
+
+          <ul class="list-disc list-inside text-gray-500 !text-sm space-y-2 text-left inline-block">
             <li>Medios Digitales.</li>
             <li>Revistas Digitales.</li>
-            <li>Emprendimientos que quieran generar contenido.</li>
+            <li>Emprendimientos de contenido.</li>
           </ul>
-          <!--<p>Ejemplos:</p>
-                    <a href="#" target="_blank">mi-blog.com</a>-->
         </div>
-        <div class="title">Blogs</div>
       </div>
 
-    </div> <!-- FIN GRID -->
+    </div>
   </section>
 
   <!-- ===== CAROUSEL===== -->
@@ -169,8 +183,7 @@
 
           <!-- Slide 1 -->
           <div class="min-w-full relative">
-            <img src="assets/img/EstudioJuridico.png"
-              class="w-full h-[320px] sm:h-[400px] md:h-[500px] object-cover">
+            <img src="assets/img/EstudioJuridico.png" class="w-full h-[320px] sm:h-[400px] md:h-[500px] object-cover">
             <div class="slide-caption absolute bottom-4 left-4 sm:bottom-6 sm:left-6 
               bg-gradient-to-r from-[#083d77]/85 to-orange-600/85 text-white p-4 sm:p-5 rounded-2xl 
               max-w-[85%] sm:max-w-sm backdrop-blur-md shadow-2xl border border-white/20 
@@ -183,8 +196,7 @@
 
           <!-- Slide 2 -->
           <div class="min-w-full relative">
-            <img src="assets/img/LevelUPStore.png"
-              class="w-full h-[320px] sm:h-[400px] md:h-[500px] object-cover">
+            <img src="assets/img/LevelUPStore.png" class="w-full h-[320px] sm:h-[400px] md:h-[500px] object-cover">
             <div class="slide-caption absolute bottom-4 left-4 sm:bottom-6 sm:left-6 
               bg-gradient-to-r from-[#083d77]/85 to-orange-600/85 text-white p-4 sm:p-5 rounded-2xl 
               max-w-[85%] sm:max-w-sm backdrop-blur-md shadow-2xl border border-white/20 
@@ -197,8 +209,7 @@
 
           <!-- Slide 3 -->
           <div class="min-w-full relative">
-            <img src="assets/img/NovaPress.png"
-              class="w-full h-[320px] sm:h-[400px] md:h-[500px] object-cover">
+            <img src="assets/img/NovaPress.png" class="w-full h-[320px] sm:h-[400px] md:h-[500px] object-cover">
             <div class="slide-caption absolute bottom-4 left-4 sm:bottom-6 sm:left-6 
               bg-gradient-to-r from-[#083d77]/85 to-orange-600/85 text-white p-4 sm:p-5 rounded-2xl 
               max-w-[85%] sm:max-w-sm backdrop-blur-md shadow-2xl border border-white/20 
@@ -845,6 +856,7 @@ bg-white/80 hover:bg-white p-3 rounded-full shadow-lg transition">
     }
 
     @media (prefers-reduced-motion: reduce) {
+
       .slide-caption,
       .modal-container,
       .modal-content,
