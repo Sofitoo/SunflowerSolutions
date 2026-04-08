@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Interfaz clara y atractiva, optimizada para todos los dispositivos",
         "Panel de administración de contenidos",
       ],
-      link: "#",
+      link: "https://novapress.iblogger.org/",
     },
   ];
 

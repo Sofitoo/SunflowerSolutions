@@ -169,7 +169,7 @@
 
           <!-- Slide 1 -->
           <div class="min-w-full relative">
-            <img src="assets/img/sistema-portafolio.png"
+            <img src="assets/img/EstudioJuridico.png"
               class="w-full h-[320px] sm:h-[400px] md:h-[500px] object-cover">
             <div class="slide-caption absolute bottom-4 left-4 sm:bottom-6 sm:left-6 
               bg-gradient-to-r from-[#083d77]/85 to-orange-600/85 text-white p-4 sm:p-5 rounded-2xl 
@@ -183,7 +183,7 @@
 
           <!-- Slide 2 -->
           <div class="min-w-full relative">
-            <img src="assets/img/sistema-pedidos-online.png"
+            <img src="assets/img/LevelUPStore.png"
               class="w-full h-[320px] sm:h-[400px] md:h-[500px] object-cover">
             <div class="slide-caption absolute bottom-4 left-4 sm:bottom-6 sm:left-6 
               bg-gradient-to-r from-[#083d77]/85 to-orange-600/85 text-white p-4 sm:p-5 rounded-2xl 
@@ -197,7 +197,7 @@
 
           <!-- Slide 3 -->
           <div class="min-w-full relative">
-            <img src="assets/img/sistema-blog-noticias.png"
+            <img src="assets/img/NovaPress.png"
               class="w-full h-[320px] sm:h-[400px] md:h-[500px] object-cover">
             <div class="slide-caption absolute bottom-4 left-4 sm:bottom-6 sm:left-6 
               bg-gradient-to-r from-[#083d77]/85 to-orange-600/85 text-white p-4 sm:p-5 rounded-2xl 
